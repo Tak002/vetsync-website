@@ -83,7 +83,7 @@ export default function Screenshots() {
           ))}
         </div>
 
-        {/* Screenshot display */}
+        {/* Screenshot display - all images preloaded, only active visible */}
         <div className="mt-10">
           <div className="overflow-hidden rounded-xl border border-border/60 bg-white shadow-xl">
             <div className="flex items-center gap-2 border-b border-border/60 bg-surface px-4 py-3">
@@ -91,13 +91,19 @@ export default function Screenshots() {
               <span className="h-3 w-3 rounded-full bg-yellow-400" />
               <span className="h-3 w-3 rounded-full bg-green-400" />
             </div>
-            <Image
-              src={screenshots[active].src}
-              alt={screenshots[active].alt}
-              width={1920}
-              height={1080}
-              className="w-full"
-            />
+            <div className="relative">
+              {screenshots.map((item, idx) => (
+                <Image
+                  key={item.id}
+                  src={item.src}
+                  alt={item.alt}
+                  width={1920}
+                  height={1080}
+                  priority
+                  className={`w-full ${idx === active ? "block" : "hidden"}`}
+                />
+              ))}
+            </div>
           </div>
           <p className="mt-6 text-center text-base text-muted">
             {screenshots[active].description}
