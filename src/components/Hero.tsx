@@ -1,4 +1,4 @@
-import { asset } from "@/lib/basePath";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -52,10 +52,13 @@ export default function Hero() {
                 <span className="h-3 w-3 rounded-full bg-green-400" />
                 <span className="ml-4 text-xs text-muted">app.vetsync.com</span>
               </div>
-              <img
-                src={asset("/screenshots/hero-dashboard.png")}
+              <Image
+                src="/screenshots/hero-dashboard.png"
                 alt="Vet-Sync 대시보드 - 입원 환자 차트 목록"
+                width={1920}
+                height={1080}
                 className="w-full"
+                priority
               />
             </div>
           </div>

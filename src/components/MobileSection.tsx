@@ -1,4 +1,4 @@
-import { asset } from "@/lib/basePath";
+import Image from "next/image";
 
 export default function MobileSection() {
   return (
@@ -51,16 +51,20 @@ export default function MobileSection() {
           {/* Mobile screenshots */}
           <div className="flex flex-1 items-end justify-center gap-6">
             <div className="animate-float w-48 overflow-hidden rounded-3xl border-2 border-border/60 bg-white shadow-2xl sm:w-56">
-              <img
-                src={asset("/screenshots/quick-input.png")}
+              <Image
+                src="/screenshots/quick-input.png"
                 alt="모바일 빠른입력 화면"
+                width={390}
+                height={844}
                 className="w-full"
               />
             </div>
             <div className="animate-float animate-delay-300 w-48 overflow-hidden rounded-3xl border-2 border-border/60 bg-white shadow-2xl sm:w-56" style={{ marginBottom: "2rem" }}>
-              <img
-                src={asset("/screenshots/chart-detail-mobile.png")}
+              <Image
+                src="/screenshots/chart-detail-mobile.png"
                 alt="모바일 차트 상세 화면"
+                width={390}
+                height={844}
                 className="w-full"
               />
             </div>
