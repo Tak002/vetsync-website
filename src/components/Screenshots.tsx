@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
+import { asset } from "@/lib/basePath";
 
 const screenshots = [
   {
@@ -91,11 +91,9 @@ export default function Screenshots() {
               <span className="h-3 w-3 rounded-full bg-yellow-400" />
               <span className="h-3 w-3 rounded-full bg-green-400" />
             </div>
-            <Image
-              src={screenshots[active].src}
+            <img
+              src={asset(screenshots[active].src)}
               alt={screenshots[active].alt}
-              width={1920}
-              height={1080}
               className="w-full"
             />
           </div>
