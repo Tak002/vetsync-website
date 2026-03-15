@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "problem": "Problem",
+    "solution": "Solution",
+    "features": "Features",
+    "insurance": "Insurance",
+    "market": "Market",
+    "contact": "Contact",
+    "cta": "Free Trial"
+  },
+  "hero": {
+    "title": "Inpatient Charts,\nDigitized",
+    "subtitle": "Everything you need for veterinary inpatient management in one platform. Charting, drug calculations, and treatment tracking.",
+    "cta_primary": "Start Free Trial",
+    "cta_secondary": "Explore Features"
+  },
+  "problem": {
+    "badge": "Sound familiar?",
+    "title": "Still spending hours\non paper charts?",
+    "subtitle": "Is your inpatient management really working?",
+    "items": [
+      {
+        "title": "Inefficient Workflow",
+        "description": "Write paper chart → Take photo → Upload to EMR. This repetitive 3-step process eats up your time."
+      },
+      {
+        "title": "Risk of Missed Treatments",
+        "description": "In a busy ward, missing a treatment or medication directly impacts patient safety."
+      },
+      {
+        "title": "Drug & Fluid Calculation Burden",
+        "description": "Manual weight-based dosing and fluid rate calculations every time. A heavy burden for less experienced vets."
+      },
+      {
+        "title": "Insurance Claim Difficulties",
+        "description": "Different terminology across clinics, unclear inpatient vs. outpatient distinction. Unnecessary friction with insurers."
+      }
+    ]
+  },
+  "solution": {
+    "badge": "The VetSync Solution",
+    "title": "Inpatient management,\ntransformed",
+    "subtitle": "Beyond the limits of paper charts — a safer, more efficient clinical environment.",
+    "items": [
+      {
+        "title": "Access Anywhere, Anytime",
+        "description": "Cloud-based access from PC, tablet, or mobile. View and edit charts wherever you are.",
+        "icon": "cloud"
+      },
+      {
+        "title": "Zero Missed Treatments",
+        "description": "Time-based treatment checklists and task alerts ensure nothing falls through the cracks.",
+        "icon": "shield-check"
+      },
+      {
+        "title": "Auto Drug & Fluid Calculation",
+        "description": "Enter patient weight, get instant dosage and fluid rate calculations. Safe for all experience levels.",
+        "icon": "calculator"
+      },
+      {
+        "title": "Streamlined Workflow",
+        "description": "Replace the 3-step paper→photo→EMR process with instant digital recording.",
+        "icon": "zap"
+      }
+    ]
+  },
+  "insurance": {
+    "badge": "Differentiator",
+    "title": "Insurance claims,\nmade simple",
+    "subtitle": "Standardized treatment codes and automatic classification dramatically reduce processing time.",
+    "items": [
+      {
+        "title": "Auto Code Mapping",
+        "description": "Each treatment is automatically assigned a standard code, instantly matching insurer requirements."
+      },
+      {
+        "title": "Unified Terminology",
+        "description": "Map clinic-specific terms to standard codes, eliminating communication friction with insurers."
+      },
+      {
+        "title": "Auto Inpatient/Outpatient Tagging",
+        "description": "Treatment records are automatically tagged, preventing confusion during insurance review."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "How It Works",
+    "title": "Get started in 3 steps",
+    "steps": [
+      {
+        "title": "Sign Up & Register Clinic",
+        "description": "Quick registration, then configure your clinic info and treatment items."
+      },
+      {
+        "title": "Create Inpatient Chart",
+        "description": "Register a patient and create an inpatient chart with a time-based grid ready to go."
+      },
+      {
+        "title": "Record Treatments in Real-Time",
+        "description": "Log treatments, vitals, and medications in real-time and share with your team."
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Why VetSync",
+    "title": "See the difference",
+    "headers": {
+      "feature": "Feature",
+      "paper": "Paper Charts",
+      "vetsync": "VetSync"
+    },
+    "rows": [
+      { "feature": "Chart Access", "paper": "In-clinic paper only", "vetsync": "Anywhere, real-time" },
+      { "feature": "Missed Treatments", "paper": "Human-dependent", "vetsync": "Auto alerts & checklists" },
+      { "feature": "Drug Calculation", "paper": "Manual calculation", "vetsync": "Weight-based auto calc" },
+      { "feature": "Insurance", "paper": "Manual code entry", "vetsync": "Auto code mapping" },
+      { "feature": "Workflow", "paper": "Write→Photo→Upload", "vetsync": "Instant record & save" },
+      { "feature": "Data Search", "paper": "Manual search", "vetsync": "Instant search & filter" }
+    ]
+  },
+  "market": {
+    "badge": "Market Opportunity",
+    "title": "A growing pet healthcare market",
+    "stats": [
+      { "value": "5,200+", "label": "Veterinary clinics in Korea", "description": "Growing number of clinics, most still using paper-based inpatient management" },
+      { "value": "₩4.6T", "label": "Pet market size", "description": "Korean pet industry market size as of 2025" },
+      { "value": "73%", "label": "Insurance growth rate", "description": "Annual growth rate of pet insurance market" }
+    ]
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "Stories from the field",
+    "items": [
+      {
+        "quote": "Chart writing time was cut in half. The drug calculation feature is a lifesaver during night shifts.",
+        "name": "Dr. Kim",
+        "role": "Director, Seoul Animal Hospital",
+        "metric": "50% reduction in charting time"
+      },
+      {
+        "quote": "New interns can jump right into inpatient management. Fluid calculation errors have disappeared.",
+        "name": "Dr. Lee",
+        "role": "Gyeonggi Animal Medical Center",
+        "metric": "70% faster onboarding"
+      },
+      {
+        "quote": "I used to struggle finding codes for insurance claims. Now they're mapped automatically.",
+        "name": "Dr. Park",
+        "role": "Busan Animal Hospital",
+        "metric": "60% faster insurance processing"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Get started today",
+    "subtitle": "Transform your inpatient management with VetSync. Try it free and see for yourself.",
+    "primary": "Start Free Trial",
+    "secondary": "Contact Us"
+  },
+  "footer": {
+    "description": "Comprehensive veterinary inpatient management service",
+    "copyright": "© 2025 VetSync. All rights reserved.",
+    "links": {
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "contact": "Contact Us"
+    }
+  }
+}
