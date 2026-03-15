@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "build:cf": "npx @opennextjs/cloudflare build",
+    "generate:help": "node scripts/generate-help-data.mjs",
+    "build": "npm run generate:help && next build",
+    "build:cf": "npm run generate:help && npx @opennextjs/cloudflare build",
     "preview:cf": "npx wrangler dev",
     "deploy": "npm run build:cf && npx wrangler deploy",
     "start": "next start",
