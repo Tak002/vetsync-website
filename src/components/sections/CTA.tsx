@@ -18,14 +18,16 @@ export default function CTA() {
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <a
-            href="#"
+            href="https://vetsync.vetu1.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 text-base font-semibold text-primary-700 shadow-lg transition-all hover:bg-primary-50"
           >
             {t("primary")}
             <ArrowRight size={18} />
           </a>
           <a
-            href="mailto:contact@vetsync.co.kr"
+            href="mailto:vetu12get@gmail.com"
             className="inline-flex items-center gap-2 rounded-full border border-primary-400 px-8 py-3.5 text-base font-semibold text-white transition-colors hover:bg-primary-800"
           >
             <Mail size={18} />

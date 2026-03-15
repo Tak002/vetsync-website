@@ -47,7 +47,9 @@ export default function Navbar() {
           </Link>
           <LanguageToggle />
           <a
-            href="#cta"
+            href="https://vetsync.vetu1.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-full bg-primary-600 px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-700"
           >
             {t("cta")}
@@ -87,7 +89,9 @@ export default function Navbar() {
             {t("help")}
           </Link>
           <a
-            href="#cta"
+            href="https://vetsync.vetu1.com"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setMobileOpen(false)}
             className="mt-2 block rounded-full bg-primary-600 px-5 py-2.5 text-center text-sm font-semibold text-white"
           >

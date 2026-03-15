@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="flex gap-6 text-sm text-gray-500">
             <a href="#" className="hover:text-gray-700">{t("links.terms")}</a>
             <a href="#" className="hover:text-gray-700">{t("links.privacy")}</a>
-            <a href="#cta" className="hover:text-gray-700">{t("links.contact")}</a>
+            <a href="mailto:vetu12get@gmail.com" className="hover:text-gray-700">{t("links.contact")}</a>
           </div>
         </div>
         <p className="mt-8 text-center text-sm text-gray-400">{t("copyright")}</p>

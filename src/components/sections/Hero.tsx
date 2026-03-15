@@ -26,7 +26,9 @@ export default function Hero() {
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="#cta"
+                href="https://vetsync.vetu1.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-primary-600 px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-primary-600/25 transition-all hover:bg-primary-700 hover:shadow-xl"
               >
                 {t("cta_primary")}
@@ -61,7 +63,7 @@ export default function Hero() {
                   src="/images/screenshots/chart-detail-desktop.png"
                   alt="VetSync Chart"
                   fill
-                  className="object-cover object-top"
+                  className="object-contain object-top"
                   priority
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />

@@ -108,7 +108,7 @@ export default async function HelpPage({
           <h2 className="text-2xl font-bold text-gray-900">{t("contact")}</h2>
           <p className="mt-2 text-gray-600">{t("contactSub")}</p>
           <a
-            href="mailto:support@vetsync.co"
+            href="mailto:vetu12get@gmail.com"
             className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-primary-700"
           >
             <Mail size={16} />
