@@ -60,7 +60,7 @@ export default function Hero() {
               </div>
               <div className="relative aspect-[16/10] bg-gray-100">
                 <Image
-                  src="/images/screenshots/chart-detail-desktop.png"
+                  src="/images/screenshots/chart-detail-desktop.png?v=2"
                   alt="VetSync Chart"
                   fill
                   className="object-contain object-top"
