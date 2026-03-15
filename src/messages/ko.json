@@ -6,6 +6,7 @@
     "insurance": "보험",
     "market": "시장",
     "contact": "문의하기",
+    "help": "도움말",
     "cta": "무료 체험"
   },
   "hero": {
@@ -156,6 +157,42 @@
     "subtitle": "VetSync로 입원환자 관리를 혁신하세요. 무료 체험으로 직접 경험해보세요.",
     "primary": "무료 체험 시작",
     "secondary": "문의하기"
+  },
+  "help": {
+    "title": "VetSync 도움말",
+    "subtitle": "무엇을 도와드릴까요?",
+    "searchPlaceholder": "가이드 검색...",
+    "popularGuides": "자주 찾는 가이드",
+    "categories": "카테고리",
+    "guidesCount": "{count}개 가이드",
+    "relatedGuides": "관련 가이드",
+    "tableOfContents": "목차",
+    "backToHelp": "도움말",
+    "noResults": "검색 결과가 없습니다",
+    "noResultsSub": "다른 키워드로 검색해 보세요.",
+    "contact": "도움이 더 필요하신가요?",
+    "contactButton": "문의하기",
+    "contactSub": "원하는 답을 찾지 못하셨나요? 언제든 문의해 주세요.",
+    "categoryNames": {
+      "getting-started": "시작하기",
+      "chart": "진료 차트",
+      "tasks": "업무 관리",
+      "calculator": "약물 & 수액 계산기",
+      "patient": "환자 & 보호자",
+      "settings": "병원 설정",
+      "mobile": "모바일 사용법",
+      "board": "게시판"
+    },
+    "categoryDescriptions": {
+      "getting-started": "가입부터 첫 차트 작성까지",
+      "chart": "차트 생성, 셀 입력, 행 관리",
+      "tasks": "마킹, 업무 목록, 완료 처리",
+      "calculator": "용량 자동 계산, 수액 설정",
+      "patient": "환자 등록, 보호자 연결",
+      "settings": "스태프, 템플릿, 약물 제품 관리",
+      "mobile": "빠른입력, PWA 설치, 모바일 UI",
+      "board": "글 작성, 댓글, 익명 기능"
+    }
   },
   "footer": {
     "description": "동물병원 입원환자 종합관리 서비스",

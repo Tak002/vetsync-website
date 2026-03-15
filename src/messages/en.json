@@ -6,6 +6,7 @@
     "insurance": "Insurance",
     "market": "Market",
     "contact": "Contact",
+    "help": "Help",
     "cta": "Free Trial"
   },
   "hero": {
@@ -156,6 +157,42 @@
     "subtitle": "Transform your inpatient management with VetSync. Try it free and see for yourself.",
     "primary": "Start Free Trial",
     "secondary": "Contact Us"
+  },
+  "help": {
+    "title": "VetSync Help",
+    "subtitle": "How can we help you?",
+    "searchPlaceholder": "Search guides...",
+    "popularGuides": "Popular Guides",
+    "categories": "Categories",
+    "guidesCount": "{count} guides",
+    "relatedGuides": "Related Guides",
+    "tableOfContents": "Table of Contents",
+    "backToHelp": "Help",
+    "noResults": "No results found",
+    "noResultsSub": "Try searching with different keywords.",
+    "contact": "Need more help?",
+    "contactButton": "Contact Us",
+    "contactSub": "Couldn't find what you're looking for? Feel free to reach out.",
+    "categoryNames": {
+      "getting-started": "Getting Started",
+      "chart": "Charts",
+      "tasks": "Task Management",
+      "calculator": "Drug & Fluid Calculator",
+      "patient": "Patients & Guardians",
+      "settings": "Hospital Settings",
+      "mobile": "Mobile Usage",
+      "board": "Board"
+    },
+    "categoryDescriptions": {
+      "getting-started": "From signup to your first chart",
+      "chart": "Create charts, input cells, manage rows",
+      "tasks": "Marking, task list, completion",
+      "calculator": "Auto dosage calculation, fluid settings",
+      "patient": "Register patients, link guardians",
+      "settings": "Staff, templates, drug product management",
+      "mobile": "Quick input, PWA install, mobile UI",
+      "board": "Posts, comments, anonymous features"
+    }
   },
   "footer": {
     "description": "Comprehensive veterinary inpatient management service",

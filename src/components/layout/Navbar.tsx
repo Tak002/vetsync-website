@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import LanguageToggle from "@/components/ui/LanguageToggle";
 
 const navLinks = [
@@ -16,6 +17,7 @@ const navLinks = [
 
 export default function Navbar() {
   const t = useTranslations("nav");
+  const locale = useLocale();
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
@@ -37,6 +39,12 @@ export default function Navbar() {
               {t(link.key)}
             </a>
           ))}
+          <Link
+            href={`/${locale}/help`}
+            className="text-sm font-medium text-gray-600 transition-colors hover:text-primary-600"
+          >
+            {t("help")}
+          </Link>
           <LanguageToggle />
           <a
             href="#cta"
@@ -71,6 +79,13 @@ export default function Navbar() {
               {t(link.key)}
             </a>
           ))}
+          <Link
+            href={`/${locale}/help`}
+            onClick={() => setMobileOpen(false)}
+            className="block py-3 text-sm font-medium text-gray-600"
+          >
+            {t("help")}
+          </Link>
           <a
             href="#cta"
             onClick={() => setMobileOpen(false)}
