@@ -59,13 +59,11 @@ export default function Hero() {
                 <span className="ml-2 text-xs text-gray-400">VetSync</span>
               </div>
               <div className="relative aspect-[16/10] bg-gray-100">
-                <Image
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
                   src="/images/screenshots/chart-detail-desktop.png"
                   alt="VetSync Chart"
-                  fill
-                  className="object-contain object-top"
-                  priority
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="absolute inset-0 h-full w-full object-contain object-top"
                 />
               </div>
             </div>
