@@ -11,7 +11,7 @@
 예시:
 - **"중성화 수술 후"** 프리셋: Cefazolin, Meloxicam, Tramadol
 - **"구토 관리"** 프리셋: Maropitant, Metoclopramide, Omeprazole
-- **"일반 입원"** 프리셋: 기본 활력징후 마킹 + Cefazolin
+- **"일반 입원"** 프리셋: 기본 Vital 마킹 + Cefazolin
 
 ---
 
