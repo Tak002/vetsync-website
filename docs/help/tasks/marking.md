@@ -81,6 +81,6 @@
 - 완료 처리된 셀은 **완료** 분류로 이동합니다.
 - 마킹을 해제하면 업무 목록에서 사라집니다.
 
-![마킹과 업무 목록 대응](/images/screenshots/help/marking-to-tasklist.png)
+![마킹이 반영된 업무 목록](/images/screenshots/help/marking-to-tasklist.png)
 
 > **팁:** 차트 복사(전날 차트 붙여넣기) 시 마킹 설정도 함께 복사됩니다. 입원 환자의 매일 반복되는 업무를 빠르게 세팅할 수 있습니다.
