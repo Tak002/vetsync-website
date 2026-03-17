@@ -6,6 +6,8 @@ import { useLocale } from "next-intl";
 import Link from "next/link";
 import type { Components } from "react-markdown";
 import { ImageIcon } from "lucide-react";
+import Image from "next/image";
+import { useState, type ReactNode, isValidElement } from "react";
 
 interface MarkdownRendererProps {
   content: string;
@@ -36,7 +38,43 @@ export default function MarkdownRenderer({
       `[$1](/${locale}/help/${category}/$2)`
     );
 
+  // Check if React children contain an img element
+  function containsImage(children: ReactNode): boolean {
+    if (Array.isArray(children)) {
+      return children.some(
+        (child) => isValidElement(child) && child.type === "img"
+      );
+    }
+    return isValidElement(children) && children.type === "img";
+  }
+
   const components: Components = {
+    img: ({ src, alt }) => {
+      const [errored, setErrored] = useState(false);
+      const imgSrc = typeof src === "string" ? src : "";
+
+      if (!imgSrc || errored) {
+        return (
+          <span className="my-4 flex items-center gap-3 rounded-lg border border-dashed border-gray-300 bg-gray-50 px-5 py-8 text-sm text-gray-400">
+            <ImageIcon size={20} className="shrink-0" />
+            <span>{alt || "이미지를 불러올 수 없습니다"}</span>
+          </span>
+        );
+      }
+
+      return (
+        <span className="my-4 block overflow-hidden rounded-lg border border-gray-200 shadow-sm">
+          <Image
+            src={imgSrc}
+            alt={alt || ""}
+            width={1440}
+            height={900}
+            className="h-auto w-full"
+            onError={() => setErrored(true)}
+          />
+        </span>
+      );
+    },
     h1: ({ children }) => (
       <h1
         id={generateId(String(children))}
@@ -62,6 +100,10 @@ export default function MarkdownRenderer({
       </h3>
     ),
     p: ({ children }) => {
+      // If paragraph contains an image, render as div to avoid invalid <p><img></p> nesting
+      if (containsImage(children)) {
+        return <div>{children}</div>;
+      }
       // Handle screenshot placeholders
       const text = String(children);
       if (text.startsWith("[스크린샷:") || text.startsWith("[Screenshot:")) {

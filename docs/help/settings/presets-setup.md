@@ -22,7 +22,7 @@
 1. **설정** > **차트 설정** 탭으로 이동합니다
 2. "프리셋 관리" 섹션을 확인합니다
 
-[스크린샷: 프리셋 관리 섹션 — 프리셋 카드 목록]
+![프리셋 관리](/images/screenshots/help/settings-presets.png)
 
 ### 프리셋 목록 화면
 
@@ -40,7 +40,7 @@
 1. **+ 프리셋 추가** 버튼을 클릭합니다
 2. **프리셋 편집 모달**이 열립니다
 
-[스크린샷: 프리셋 편집 모달 전체 화면 — 프리셋명, 항목 검색, 등록된 항목]
+![프리셋 편집 모달](/images/screenshots/help/settings-preset-edit.png)
 
 ### Step 1: 프리셋명 입력
 
@@ -66,7 +66,7 @@
 3. 검색 결과에서 **+ 아이콘**을 클릭하여 추가합니다
 4. 이미 추가된 항목은 목록에서 제외됩니다
 
-[스크린샷: 항목 검색 — 탭 선택(고정항목/예시어/약물) + 검색 결과 목록]
+![항목 검색](/images/screenshots/help/settings-preset-search.png)
 
 ### Step 3: 등록된 항목 관리
 
@@ -93,7 +93,7 @@
 - 시간 버튼을 클릭하면 **금색**으로 활성화 (마킹됨)
 - 다시 클릭하면 비활성화 (마킹 해제)
 
-[스크린샷: TimeSlotMarker — 8x3 시간 버튼 격자, 일부가 금색으로 활성화]
+![시간 슬롯 마커](/images/screenshots/help/settings-timeslot-marker.png)
 
 #### 약물 항목
 
@@ -106,7 +106,7 @@
 
 2. **커스텀 선택**: 빠른 선택 외에 TimeSlotMarker로 개별 시간을 추가/제거할 수 있습니다
 
-[스크린샷: FrequencySlotSelector — SID/BID/TID 빠른 선택 버튼 + TimeSlotMarker 격자]
+![투여 빈도 선택기](/images/screenshots/help/settings-frequency-selector.png)
 
 > **팁:** 투여 빈도 버튼은 **설정 > 약물·수액 > 투여 횟수**에서 등록한 항목들입니다. 자주 쓰는 빈도를 먼저 등록해두면 프리셋 설정이 훨씬 빨라집니다.
 
@@ -149,7 +149,7 @@
    - 처치행: 새로운 처치행으로 추가
    - 시간 슬롯: 지정된 시간에 마킹 자동 생성
 
-[스크린샷: 차트에서 프리셋 선택 팝업 → 적용 후 행이 추가된 모습]
+![프리셋 적용 결과](/images/screenshots/help/chart-preset-applied.png)
 
 > **팁:** 프리셋 적용 후에도 개별 행을 자유롭게 수정하거나 삭제할 수 있습니다. 프리셋은 초기 설정을 빠르게 잡아주는 역할입니다.
 
